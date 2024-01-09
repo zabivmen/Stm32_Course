@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#define DELAY_1S 1000
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -93,9 +93,10 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	 //if(read == 1)
 	  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
-
-	  HAL_Delay(1000);
+	  //else
+	  HAL_Delay(DELAY_1S);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
