@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#define DELAY_1S 1000
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
